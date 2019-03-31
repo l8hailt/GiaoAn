@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GiaoAn</string>
+    <string name="subject_name">Tên môn học</string>
+    <string name="season">Học kì</string>
+    <string name="subject_id">Mã môn học</string>
+    <string name="add_subject">Thêm môn học</string>
+    <string name="edit_subject">Sửa</string>
+    <string name="cancel">Hủy</string>
+</resources>

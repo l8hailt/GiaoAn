@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".activity.AddSubjectActivity">
+
+    <EditText
+        android:id="@+id/edtSubjectID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/subject_id"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edtSubjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/subject_name"
+        android:imeOptions="actionNext"
+        android:inputType="textCapSentences"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edtSeason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/season"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/add_subject" />
+
+</LinearLayout>
